@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+
+   .main-open{
+    @apply !hidden lg:!flex
+   }
+   
+    .header-ul{
+        @apply  fixed flex  flex-col lg:static  lg:flex-row gap-10 lg:gap-0 top-[65px] md:top-[78px]   left-0 smpro:left-1/2 right-0 bottom-32  bg-blue-950 lg:bg-inherit items-center justify-center lg:space-x-8 rounded-b shadow-boxshadow
+    }
+    .mission-section{
+        @apply w-full px-7 sm1:px-12 sm:px-[55px] md:px-16 xl:px-[148px] bg-gradient-to-r from-main-clr from-30% to-missionbg/20 to-50% dark:bg-gradient-to-r dark:from-gray-700 dark:from-30% dark:to-gray-600/15  md:dark:bg-gradient-to-r md:dark:from-gray-700 md:dark:from-30% md:dark:to-gray-600/35 rounded-coustomaize2 py-1 
+    }
+    .mission-h1{
+        @apply text-3xl md:text-4xl font-medium text-empowerbg mb-8 md:mb-10
+        dark:text-white 
+    }
+
+    .mission-p{
+        @apply text-sm md:text-lg font-normal text-black mb-10 md:mb-16 dark:text-white/75
+    }
+    .secondary-h4{
+        @apply text-xl md:text-2xl font-bold mb-3 sm:mb-4 md:mb-5 dark:text-white
+    }
+
+   .hamicon{
+    @apply  block lg:hidden text-black  transform scale-150 
+   }
+   .btn{
+    @apply px-3 md:px-4 py-2  rounded-lg transition duration-500 ease-in-out text-xs md:text-lg
+   }
+   .btn1{
+    @apply px-4 py-2    rounded-lg transition duration-500 ease-in-out text-[8px] sm0:text-[12px] md:text-lg 
+   }
+   .navId{
+    @apply  text-base font-normal text-white group-hover:text-black lg:text-navclr dark:text-white  lg:dark:text-white   dark:group-hover:text-black 
+   }
+   .navId2{
+    @apply text-base font-normal text-activeclr
+   }
+   .circel-animation{
+    @apply transform hover:scale-125 transition duration-300 delay-100 ease-in-out group-hover:bg-white 
+   }
+
+   .first-ul{
+    @apply text-sm md:text-base font-light italic  col-span-12 lg:col-span-4   md:place-self-center lg:place-self-start dark:text-white
+   }
+   .secondary-ul{
+    @apply text-xs md:text-base space-y-2 lg:space-y-6 font-normal col-span-6 lg:col-span-2 md:place-self-center lg:place-self-start dark:text-white/90
+   }
+   .ul-heading{
+    @apply text-lg font-bold  border-b-[1px] lg:border-0 border-black/35 dark:text-white dark:border-white
+   }
+   .first-img{
+    @apply mb-3 dark:inline-block dark:md:block dark:border dark:px-5  dark:py-1 dark:bg-white dark:rounded-full dark:w-32
+   }
+}
