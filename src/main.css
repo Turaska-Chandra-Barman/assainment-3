@@ -38,7 +38,7 @@
     @apply px-4 py-2    rounded-lg transition duration-500 ease-in-out text-[8px] sm0:text-[12px] md:text-lg 
    }
    .navId{
-    @apply  text-base font-normal text-white group-hover:text-black lg:text-navclr dark:text-white  lg:dark:text-white   dark:group-hover:text-black 
+    @apply  text-base font-normal text-white group-hover:text-black   lg:dark:text-white lg:text-navclr dark:text-white   dark:group-hover:text-black lg:dark:group-hover:text-white
    }
    .navId2{
     @apply text-base font-normal text-activeclr
