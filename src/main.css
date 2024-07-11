@@ -14,7 +14,7 @@
         @apply  fixed flex  flex-col lg:static  lg:flex-row gap-10 lg:gap-0 top-[65px] md:top-[78px]   left-0 smpro:left-1/2 right-0 bottom-32   bg-blue-950  lg:bg-inherit items-center justify-center lg:space-x-8 rounded-b shadow-boxshadow lg:shadow-none
     }
     .mission-section{
-        @apply w-full px-7 sm1:px-12 sm:px-[55px] md:px-16 xl:px-[148px] bg-gradient-to-r from-main-clr from-30% to-missionbg/20 to-50% dark:bg-gradient-to-r dark:from-gray-700 dark:from-30% dark:to-gray-600/15  md:dark:bg-gradient-to-r md:dark:from-gray-700 md:dark:from-30% md:dark:to-gray-600/35 rounded-coustomaize2 py-1 
+        @apply w-full px-5 sm:px-[55px] md:px-16 xl:px-[148px] bg-gradient-to-r from-main-clr from-30% to-missionbg/20 to-50% dark:bg-gradient-to-r dark:from-gray-700 dark:from-30% dark:to-gray-600/15  md:dark:bg-gradient-to-r md:dark:from-gray-700 md:dark:from-30% md:dark:to-gray-600/35 rounded-coustomaize2 py-1 
     }
     .mission-h1{
         @apply text-3xl md:text-4xl font-medium text-empowerbg mb-8 md:mb-10
